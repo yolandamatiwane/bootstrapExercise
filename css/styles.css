@@ -1,0 +1,54 @@
+#right .firstP{
+    color: rgb(140, 18, 18);
+    background-color: rgb(243, 193, 193);
+    height: 35px;
+    border-radius: 5px;
+
+}
+#left .button{
+    display: flex;
+    color: blue;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+#searchbar{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px rgb(208, 205, 205) solid;
+}
+.searchRecipes{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+#left button:focus{
+    background-color: blue;
+    color: white;
+}
+.secP{
+    font-size: 14px;
+}
+#table> tbody td{
+    border: 1px rgb(208, 205, 205) solid;
+}
+#table> thead, th{
+    border: 1px rgb(208, 205, 205) solid;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+#cards{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.card-body{
+    background-color: none;
+}
